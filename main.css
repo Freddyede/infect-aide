@@ -1,0 +1,15 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #fb3e02;
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-size: 48px;
+  font-weight: 500;
+}
