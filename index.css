@@ -1,0 +1,70 @@
+body {
+  background-image: url("./ressources/virus.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: -70px;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  font-size: 2em;
+  letter-spacing: 5px;
+  font-weight: normal;
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-top: -30px;
+  margin-bottom: -60px;
+  text-align: center;
+  line-height: 35px;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.container {
+  height: 100px;
+  position: relative;
+}
+
+.buttonAlign {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 5;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #00000;
+  background-color: black;
+  border-radius: 30px;
+  border: 3px solid #ffffff;
+  text-decoration: none;
+}

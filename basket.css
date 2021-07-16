@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: #e5e5e5;
+  font-family: "Raleway", sans-serif;
+}
+
+.basket,
+.title,
+.prices {
+  align-self: center;
+  padding-bottom: 2em;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.item,
+.prices {
+  width: 50em;
+  padding-bottom: 3em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price,
+.product_price {
+  display: inline-block;
+  width: 5em;
+  height: 1.5em;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 7px;
+  text-align: center;
+}
+
+.price {
+  background-color: white;
+  border-color: #fb3e02;
+  color: #fb3e02;
+}
+
+.delivery_price {
+  display: inline-block;
+  width: 5em;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 7px;
+  text-align: center;
+  background-color: #fb3e02;
+}
+
+h1 {
+  text-align: center;
+  color: #fb3e02;
+  display: block;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#button_pay {
+  background-color: black;
+  font-size: 46px;
+  width: 300px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}

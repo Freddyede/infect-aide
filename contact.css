@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+img.logo {
+  width: 80px;
+  height: 80px;
+  /*padding-top: 10px;*/
+}
+
+nav {
+  padding-top: 10px;
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li:first-child {
+  margin-right: 20px;
+}
+
+nav ul li a:hover {
+  color: #fb3e02;
+}
+
+.nav-button {
+  margin-top: 20px;
+}
+
+.btn-contact {
+  background: none;
+  border: 2.5px solid #fff;
+  color: #fff;
+  padding: 5px 22px;
+  border-radius: 26px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.btn-contact:hover {
+  background-color: #fb3e02;
+  cursor: pointer;
+}
+
+/*** SECTION CONTACT ***/
+
+.contact {
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.title {
+  text-align: center;
+}
+
+.contact-block {
+  display: flex;
+  padding-top: 40px;
+}
+
+.img-info {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.img-info img {
+  width: 90%;
+  border-radius: 5px;
+}
+
+.img-info .info {
+  font-size: 16px;
+  font-weight: lighter;
+  width: 90%;
+}
+
+.contact-form {
+  width: 50%;
+}
+
+label {
+  font-weight: lighter;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  opacity: 0.5;
+}
+
+input[type="submit"] {
+  background-color: #000;
+  color: #fb3e02;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: 2.5px solid #fb3e02;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #fb3e02;
+  color: #fff;
+}
